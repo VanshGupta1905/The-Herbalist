@@ -2,7 +2,7 @@ import streamlit as st
 import google.generativeai as genai
 
 import db
-messages=[]
+messages=db.messages
 apikey = "AIzaSyAnt9SYqPnO7eR7PVf1vulLvvN5Nm8mXdo"
 genai.configure(api_key=apikey)
 model = genai.GenerativeModel("gemini-1.5-flash")
