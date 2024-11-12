@@ -103,6 +103,7 @@ if option=='Home Page':
 
 
 else:
+    
     chat = model.start_chat(history=messages)
 
     def display_message(message, sender):
@@ -150,3 +151,7 @@ else:
 
     for msg in messages:
         display_message(msg["parts"], msg["role"])
+
+
+if __name__ == '__main__':
+    db.messages=[]
