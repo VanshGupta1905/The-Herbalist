@@ -5,7 +5,7 @@ import db
 messages=[]
 apikey = "AIzaSyAnt9SYqPnO7eR7PVf1vulLvvN5Nm8mXdo"
 genai.configure(api_key=apikey)
-model = genai.GenerativeModel("gemini-1.5-flash")
+model = genai.GenerativeModel("gemini-1.5-pro")
 
 st.set_page_config(page_title="Herbal Assistant", layout="wide", initial_sidebar_state="collapsed")
 option=st.sidebar.selectbox("Select the Page",['Home Page','ChatBot'])
