@@ -28,7 +28,7 @@ Herbal Assistant is an interactive Streamlit application designed to educate and
 
 1. Clone this repository:
    ```bash
-   git clone https://github.com/your-username/herbal-assistant.git
+   git clone https://github.com/VanshGupta1905/The-Herbalist.git
    ```
 2. Install dependencies:
    ```bash
