@@ -7,7 +7,7 @@ apikey = "AIzaSyAnt9SYqPnO7eR7PVf1vulLvvN5Nm8mXdo"
 genai.configure(api_key=apikey)
 model = genai.GenerativeModel("gemini-1.5-pro")
 
-st.set_page_config(page_title="Herbal Assistant", layout="wide", initial_sidebar_state="collapsed")
+st.set_page_config(page_title="Herbal Assistant", layout="wide")
 option=st.sidebar.selectbox("Select the Page",['Home Page','ChatBot'])
 
 if option=='Home Page':
